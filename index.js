@@ -10,8 +10,8 @@ console.log(string.toUpperCase())
 function logWhisper(string) {
   console.log(string.toLowerCase())
 }
-var mixedCase = "I can\'t hear you!"
-
-mixedCase.toLowerCase() === mixedCase
-
-mixedCase.toUpperCase() === mixedCase
+function sayHiToGrandma(string) {
+  var lowercase = (string)
+  if lowercase.toLowerCase() === lowercase
+  return "I can\'t hear you!"
+}
