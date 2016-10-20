@@ -8,5 +8,11 @@ function sayHiToGrandma(string) {
   return 'sayhitograndma'.toLowerCase()
 }
 function sayHiToGrandma(string) {
-  console.log() 'I cant hear you!'.toLowerCase()
+return 'i cant hear you!'.toLowerCase()
+}
+function sayHiToGrandma(string) {
+  return 'YES INDEED!'.toUpperCase()
+}
+function sayHiToGrandma(string) {
+  return 'I love you, too' (string) 'I love you, Grandma'
 }
