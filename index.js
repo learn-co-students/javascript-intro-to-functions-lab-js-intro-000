@@ -21,5 +21,7 @@ function sayHiToGrandma(string) {
     case "I love you, Grandma.":
     return "I love you, too."
     break;
+    default:
+    return "Are you eating enough?"
   }
 }
