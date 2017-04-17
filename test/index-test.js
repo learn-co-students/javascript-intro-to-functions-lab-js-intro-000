@@ -1,3 +1,7 @@
+global.expect = require('expect');
+const babel = require('babel-core');
+const jsdom = require('jsdom');
+const path = require('path');
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
@@ -48,3 +52,33 @@ describe('sayHiToGrandma(string)', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })
+
+function shout(string) {
+  return string.toUpperCase()
+}
+
+function whisper(string){
+  return string.toLowerCase()
+}
+
+function logShout(string) {
+  console.log(string.toUpperCase())
+
+}
+
+function logWhisper(string) {
+  console.log(string.toLowerCase())
+}
+
+function sayHiToGrandma(string) {
+  var ans = string
+  if (string.toLowerCase() === ans) {
+    return "I can't hear you!"
+  }
+  else if (string.toUpperCase() === ans){
+    return "YES INDEED!"
+  }
+  else {
+    return "I love you, too."
+  }
+}
