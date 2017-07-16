@@ -15,19 +15,15 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  var uppercase = "HELLO";
-  var lowercase = "hello";
-  var love = "I love you, Grandma.";
-
-    if (string === uppercase){
+    if (string.toUpperCase() === string){//using case specific var=HELLO/hello/I love you, referring to string itself saves space and doesnt limit string value
       return "YES INDEED!"
     }
 
-    else if (string === lowercase) {
+    if (string.toLowerCase() === string) {
       return "I can\'t hear you!"
     }
 
-    else if (string === love) {
+    if (string === "I love you, Grandma.") {
       return "I love you, too."
     }
 
