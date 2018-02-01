@@ -35,7 +35,7 @@ function sayHiToGrandma(string) {
 function sayHiToGrandma(string) {
   switch (string) {
     case "HELLO":
-        return "YES INDEED!";
+      return "YES INDEED!";
       break;
     case "hello":
       return "I can't hear you!";
