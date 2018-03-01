@@ -27,6 +27,6 @@ function sayHiToGrandma(string){
       }
 }
 
-sayHiToGrandma(whisper('heLlo'));
+sayHiToGrandma(whisper('heLlo'))
 sayHiToGrandma(shout('HEllO'));
 sayHiToGrandma("I love you, Grandma.");
