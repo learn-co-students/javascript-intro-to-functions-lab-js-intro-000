@@ -2,6 +2,9 @@
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO')
+    expect(shout('AAA')).toEqual('AAA')
+    expect(shout('')).toEqual('')
+    expect(shout('333')).toEqual(undefined)
   })
 })
 
