@@ -1,4 +1,4 @@
-function logshout(string){
-  console.log(string.toUpperCase());
+function shout(string)
+{
+  return string.toUpperCase()
 }
-logshout(hello)
