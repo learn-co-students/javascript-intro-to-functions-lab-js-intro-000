@@ -11,7 +11,8 @@
 
 Welcome to the JavaScript functions lab! You'll notice a few new things in this
 lesson that we haven't encountered before. Don't worry, we'll walk you through
-them.
+them.As we know,we can use functions to name sequences of our code,thus making 
+our code more expressive.We can also use functions to allow us to reuse our code.
 
 Even if you've walked through some of this material before, it's a good idea to
 review as we code-along — we're writing functions now, after all.
