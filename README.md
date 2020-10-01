@@ -1,3 +1,4 @@
+#amazing project
 # JavaScript Intro to Functions Lab
 
 ## Objectives
